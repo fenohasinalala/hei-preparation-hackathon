@@ -1,0 +1,54 @@
+candidate
+/candidates 
+- get | get all candidate
+- post | add new candidate
+/candidates/{id}
+- get | get candidate by id
+- put | update a candidate by id
+- patch | partialy update a candidate by id
+- delete | candidate by id
+
+concours
+/concours 
+- get | get ll concours
+- post | add new concours
+/concours/{id}
+- get | concours by id
+- put | update a concours by id
+- patch | update a concours by id
+- delete | concours by id
+
+grades
+/grades 
+- get | get all candidates grade filter by admission
+/candidates/{id_candidate}/grades
+- get | candidate grades by candidate id
+/concours/{id_concours}/grades
+- get | get all grade from a concours
+- post | add new grade to concours
+/concours/{id_concours}/grades/{id_grade}
+- get | grade by id from a specific concours
+- put | update grade by id from a specific concours 		
+- patch | partialy update grade by id from a specific concours 	
+- delete | delete grade by id from a specific concours
+
+tests
+/tests
+- get | get all tests
+- post | add new test
+/tests/{id}
+- get | get test by id
+- put | update a test by id
+- patch | partialy update a test by id
+- delete | test by id
+
+matieres
+/matieres
+- get | get all matieres
+- post | add new matiere
+/matieres/{id}
+- get | get matiere by id
+- put | update matiere by id
+- patch | partialy update matiere by id
+- delete | matiere by id
+
